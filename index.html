@@ -22,8 +22,43 @@
             <label for="age">Idade:</label>
             <input type="text" name="age"/>
          </div>
+         <!-- 6 elemento select -->
+         <div>
+            <label for="job">Selecione a profissão que você exerce:</label>
+            <select name="job">
+                <option value="Programador">Programador</option>
+                <option value="Motorista">Motorista</option>
+                <option value="Medico">Medico</option>
+                <option value="Vendedor">Vendedor</option>
+                <option value="Gerente de banco">Gerente de banco</option>
+                <option value="Açogueiro">Açogueiro</option>
+            </select>
+         </div>
+         <!-- 7 atributos selected -->
+          <div>
+            <label for="contract">Você leu os termos do contrato?</label>
+            <select name="contract">
+                <option value="Sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+        <!-- 8 multiplas opções -->
+         <div>
+            <label for="items">Selecione os itens que você deseja: </label>
+            <select name="items" multiple>
+                <option value="feijao">Feijão</option>
+                <option value="arroz">Arroz</option>
+                <option value="macarrao">Macarrão</option>
+                <option value="frango">Frango</option>
+                <option value="carne">Carne</option>
+                <option value="hamburguer">Hamburguer</option>
+
+            </select>
+         </div>
          <!-- 5 envio de form -->
           <input type="submit" value="Enviar"/>
+      
+
     </form>
     
 </body>
