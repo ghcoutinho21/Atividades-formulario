@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/index.css">
 </head>
 <body>
-    <h2>Formulários HTML</h2>
+    <h2>Formulário vaga de emprego</h2>
     <!-- 1 primeiro formulário -->
     <!-- 2 Atributos dos formulários -->
     <form action="register.php" method="GET">
@@ -15,6 +15,7 @@
         <label>Nome: </label>
         <input type="text" />
         </div>
+        
 
         <!-- 3 atributo name -->
          <div>
@@ -44,29 +45,28 @@
         </div>
         <!-- 8 multiplas opções -->
          <div>
-            <label for="items">Selecione os itens que você deseja: </label>
+            <label for="items">Selecione o horário que você deseja trabalhar: </label>
             <select name="items" multiple>
-                <option value="feijao">Feijão</option>
-                <option value="arroz">Arroz</option>
-                <option value="macarrao">Macarrão</option>
-                <option value="frango">Frango</option>
-                <option value="carne">Carne</option>
-                <option value="hamburguer">Hamburguer</option>
+                <option value="feijao">Turno manhã 6h-12</option>
+                <option value="arroz">Turno tarde 12h-18h</option>
+                <option value="macarrao">Turno noite 18h-00h</option>
+                <option value="frango">Madrugada 00h-6h</option>
+                <option value="carne">Turno integral 8h-17h</option>
             </select>
          </div>
          <!-- 9 textarea -->
           <div>
-            <label for="comment">Escreva o que você achou desse post:</label>
+            <label for="comment">Faça um resumo da sua carreira profissional:</label>
             <textarea name="comment"></textarea>
           </div>
           <!-- 10 fildset e legend -->
            <div>
             <fieldset>
-                <legend>Preencha as suas informações: </legend>
-                <label for="firstname">Nome</label>
-                <input type="text" name="firstname">
-                <label for="lastname">Sobrenome:</label>
-                <input type="text" name="lastname">
+                <legend>Preencha as informações sobre seu curso: </legend>
+                <label for="course">Curso:</label>
+                <input type="text" name="course">
+                <label for="university">Faculdade:</label>
+                <input type="text" name="university">
             </fieldset>
            </div>
          <!-- 5 envio de form -->
