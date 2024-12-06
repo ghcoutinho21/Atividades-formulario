@@ -11,18 +11,24 @@
     <!-- 1 primeiro formulário -->
     <!-- 2 Atributos dos formulários -->
     <form action="register.php" method="GET">
+        <!-- 3 atributo name -->
         <div>
         <label>Nome: </label>
         <input type="text" />
         </div>
-        
 
-        <!-- 3 atributo name -->
+        <!-- 4 email -->
+        <div>
+            <label>Email: </label>
+            <input type="text" />
+        </div>
+        
          <div>
-        <!-- atributo label -->
+        <!-- 5 atributo label -->
             <label for="age">Idade:</label>
             <input type="text" name="age"/>
          </div>
+         
          <!-- 6 elemento select -->
          <div>
             <label for="job">Selecione o cargo que você deseja participar:</label>
@@ -69,6 +75,25 @@
                 <input type="text" name="university">
             </fieldset>
            </div>
+           <!-- 11 datalist -->
+            <div>
+                <label for="flavor">Escolha o que mais te define:</label>
+                <input type="text" list="flavors" name="flavors">
+
+                <datalist id="flavors">
+                    <option value="Divertido"></option>
+                    <option value="Espontâneo"></option>
+                    <option value="Alegre"></option>
+                    <option value="Impaciente"></option>
+                </datalist>
+            </div>
+            <!-- 12 senha -->
+             <div>
+                <label for="password">Digite sua senha:</label>
+                <input type="password" name="password">
+             </div>
+             <!-- 13 resetar form  -->
+              <input type="reset" value="Limpar Tudo"/>
          <!-- 5 envio de form -->
           <input type="submit" value="Enviar"/>
       
